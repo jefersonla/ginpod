@@ -2,6 +2,7 @@
 tasks:
   - name: Commands Terminal
     init: echo "Use this terminal for any development related task"
+    before: gp open main.go
   - name: Application Terminal
     init: go install github.com/cosmtrek/air@latest
     command: make run
