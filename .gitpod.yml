@@ -11,3 +11,10 @@ tasks:
 ports:
   - port: 8080
     onOpen: open-preview
+
+# VS Code config
+vscode:
+  extensions:
+    golang.go
+    tal7aouy.icons
+  
