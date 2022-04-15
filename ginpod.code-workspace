@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.iconTheme": "vscode-icons",
+		"workbench.colorTheme": "Visual Studio Dark",
+		"vsicons.associations.folders": [
+			{
+				"icon": "www",
+				"extensions": [
+					"thunder-tests"
+				],
+				"format": "svg"
+			},
+			{
+				"icon": "library",
+				"extensions": [
+					"vendor"
+				],
+				"format": "svg"
+			}
+		],
+		"thunder-client.saveToWorkspace": true,
+		"thunder-client.workspaceRelativePath": "."
+	}
+}
