@@ -17,4 +17,5 @@ vscode:
   extensions:
     - golang.go
     - vscode-icons-team.vscode-icons
+    - rangav.vscode-thunder-client
   
