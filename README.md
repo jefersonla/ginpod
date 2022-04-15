@@ -27,3 +27,5 @@ A gin gitpod repository for easy development of web backend applications written
 * golang.go - Go support
 * vscode-icons-team.vscode-icons - VS Code icons theme
 * rangav.vscode-thunder-client - HTTP Client (the lightning icon at your left)
+
+![environment preview](docs/images/preview.png)
