@@ -2,10 +2,10 @@
 tasks:
   - name: Commands Terminal
     init: echo "Use this terminal for any development related task"
-    before: gp open main.go
+    before: clear && gp open main.go
   - name: Application Terminal
     init: go install github.com/cosmtrek/air@latest
-    command: make run
+    command: clear && make run
     openMode: split-right
 
 # Ports to expose on workspace startup
