@@ -4,5 +4,6 @@
     "vsicons.associations.folders": [
         { "icon": "www", "extensions": ["thunder-tests"], "format": "svg" },
         { "icon": "library", "extensions": ["vendor"], "format": "svg" }
-    ]
+    ],
+    "thunder-client.saveToWorkspace": true
 }
