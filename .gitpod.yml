@@ -16,5 +16,5 @@ ports:
 vscode:
   extensions:
     - golang.go
-    - tal7aouy.icons
+    - vscode-icons-team.vscode-icons
   
