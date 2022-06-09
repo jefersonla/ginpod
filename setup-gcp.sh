@@ -12,4 +12,5 @@ mkdir -p ~/Apps/gcp
     tar -zxvf "$GOOGLE_CLOUD_INSTALLER_NAME" && \
     ./google-cloud-sdk/install.sh -q && \
     echo "source /home/gitpod/Apps/gcp/google-cloud-sdk/path.bash.inc" >> ~/.profile &&
-    source /home/gitpod/Apps/gcp/google-cloud-sdk/path.bash.inc 
+    source /home/gitpod/Apps/gcp/google-cloud-sdk/path.bash.inc &&
+    source /home/gitpod/Apps/gcp/google-cloud-sdk/completion.bash.inc
