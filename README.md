@@ -6,8 +6,8 @@ A gin gitpod repository for easy development of web backend applications written
 
 ## Google Cloud Setup
 
-Gcloud is already installed in this environment if you need.
-To setup google cli proceed with the following commands:
+Gcloud tools is already installed in this environment.
+Use the following commands to setup gcloud tools:
 
 ```
 gcloud auth login
