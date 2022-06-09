@@ -2,8 +2,8 @@
 # Commands to start on workspace startup
 tasks:
   - name: Commands Terminal
+    before: clear && bash setup-gcp.sh && gp open main.go
     init: echo "Use this terminal for any development related task"
-    before: clear && gp open main.go
   - name: Application Terminal
     init: bash setup.sh
     command: clear && make run
