@@ -1,10 +1,11 @@
+---
 # Commands to start on workspace startup
 tasks:
   - name: Commands Terminal
     init: echo "Use this terminal for any development related task"
     before: clear && gp open main.go
   - name: Application Terminal
-    init: go install github.com/cosmtrek/air@latest
+    init: bash setup.sh
     command: clear && make run
     openMode: split-right
 
@@ -19,4 +20,6 @@ vscode:
     - golang.go
     - vscode-icons-team.vscode-icons
     - rangav.vscode-thunder-client
-  
+    - ms-vscode.makefile-tools
+    - eamodio.gitlens
+    - wayou.vscode-todo-highlight

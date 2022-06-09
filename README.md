@@ -4,6 +4,16 @@
 
 A gin gitpod repository for easy development of web backend applications written in go
 
+## Google Cloud Setup
+
+Gcloud is already installed in this environment if you need.
+To setup google cli proceed with the following commands:
+
+```
+gcloud auth login
+gcloud config set project $PROJECT_ID
+```
+
 ## Go important links
 
 * go tour - https://go.dev/tour/welcome/1
